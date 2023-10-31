@@ -203,7 +203,7 @@ body {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 13px;
-	color: #65da41;
+	color:  #01b84a;
 }
 
 #menu .e-menu-item.e-separator:not(:first-child) {
@@ -249,7 +249,13 @@ img.profile-pic {
 	border-radius: 12px;
 	cursor: pointer;
 	margin-bottom: 30px;
+    box-shadow: 0px 3px 11px -3px rgb(50, 58, 71);
+    transition: 0.3s;
 }
+.profile-wrapper:hover{
+    box-shadow:none;
+}
+
 
 .profile-wrapper .titles {
 	line-height: 1;
@@ -327,7 +333,14 @@ img.profile-pic {
 .widget {
 	border-radius: 1rem;
 	background-color: #1a222b;
+    box-shadow: 0px 3px 11px -3px rgb(50, 58, 71);
+    transition: 0.3s;
 }
+
+.widget:hover {
+    box-shadow: none;
+}
+
 
 .widget.summary > div:first-child {
 	background-color: #222b33;
@@ -355,3 +368,4 @@ img.profile-pic {
 .widget.chart {
 	padding: 5px;
 }
+
