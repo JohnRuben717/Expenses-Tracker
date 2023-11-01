@@ -1,3 +1,4 @@
+
 html {
 	font-size: 14px;
 }
@@ -24,6 +25,7 @@ body {
 	color: #fff;
 	overflow: hidden;
 }
+
 
 /**************Radio Button Group*****************/
 
@@ -179,6 +181,9 @@ body {
 
 #menu .e-menu-item {
 	box-sizing: border-box;
+}
+.e-menu-item{
+    transition: 0.3s;
 }
 
 #menu .e-menu-item a {
